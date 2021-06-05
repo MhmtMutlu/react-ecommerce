@@ -1,0 +1,8 @@
+.productDetailCard {
+    width: 30em;
+    height: 40em;
+}
+
+.productDetailCard p {
+    font-size: 11px;
+}
