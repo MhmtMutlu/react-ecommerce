@@ -1,13 +1,13 @@
 import './App.css';
-import DataFecthing from "../src/Product/DataFetching"
-import Navbar from "../src/Navbar/Navbar"
-import ProductDetail from "../src/ProductDetail/ProductDetails"
-import Footer from "../src/Footer/Footer"
+import DataFecthing from "../src/components/Product/DataFetching"
+import Navbar from "../src/layout/Navbar/Navbar"
+import ProductDetail from "./pages/ProductDetail/ProductDetails"
+import Footer from "../src/layout/Footer/Footer"
+import Cart from "../src/pages/Cart/Cart"
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom"
 
 
@@ -16,7 +16,10 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-          <Switch>
+          <Switch>  
+            <Route path="/Cart">
+              <Cart />
+            </Route>
             <Route path="/:id">
               <ProductDetail />
             </Route>

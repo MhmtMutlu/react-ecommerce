@@ -20,7 +20,7 @@ function DataFetching() {
             <div className="container mt-2">
                 <div className="d-flex flex-wrap">
                     {products.map(product => (
-                        <Product id={product.id} title={product.title} price={product.price} image={product.image}/>
+                        <Product key={product.id} id={product.id} title={product.title} price={product.price} image={product.image}/>
                     ))}
                 </div>
             </div> 

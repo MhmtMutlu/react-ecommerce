@@ -5,3 +5,7 @@
     height: 5em;
     background-color: #303841;
 }
+
+.footer p a {
+    color: #f6c90e;
+}

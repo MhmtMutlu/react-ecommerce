@@ -1,6 +1,6 @@
 import React from "react"
 import "./Product.css"
-import { Link, useHistory } from "react-router-dom"
+import { useHistory } from "react-router-dom"
 
 function Product(props) {
 
@@ -18,7 +18,7 @@ function Product(props) {
                     <p className="card-text">{props.price} $</p>
                 </div>
                 <footer className="mb-2">
-                    <Link onClick={productDetails}  className="btn btn-secondary">Details</Link>
+                    <button onClick={productDetails} className="btn btn-secondary">Details</button>
                 </footer>
             </div>
         </React.Fragment>
