@@ -1,4 +1,4 @@
-# ⚛️ E Commerce App with ReactJS
+# ⚛️ E-Commerce App with ReactJS
 
 <a href="https://e-commerce-app-with-react.netlify.app">Go to Website</a>
 
