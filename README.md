@@ -1,6 +1,6 @@
 # ⚛️ E Commerce App with ReactJS
 
-<a href="https://60bbc8b24d9b8c1ee664dd65--eloquent-bartik-c134ab.netlify.app">Go to Website</a>
+<a href="https://e-commerce-app-with-react.netlify.app">Go to Website</a>
 
 # 🧰 Toolbox
 
